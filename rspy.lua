@@ -1,4 +1,5 @@
-    local lolsixseven = loadstring(game:HttpGet("https://murmurs.vercel.app/src"))()
+pcall(function()
+    loadstring(game:HttpGet("https://murmurs.vercel.app/src"))()
 end)
 local lol1 = game:GetService("Players")
 local lol2 = game:GetService("CoreGui")
